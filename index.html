@@ -223,7 +223,7 @@
     function loadLevel() {
       const level = levels[currentLevel];
       document.getElementById('translation').textContent = level.turkishTranslation;
-      document.getElementById('level').textContent = Seviye ${currentLevel + 1};
+      document.getElementById('level').textContent = `Seviye ${currentLevel + 1}`;
       const lettersContainer = document.getElementById('letters');
       const slotsContainer = document.getElementById('slots');
       lettersContainer.innerHTML = '';
